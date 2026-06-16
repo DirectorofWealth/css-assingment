@@ -1,0 +1,50 @@
+.task-one {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 80%;
+   border-radius: 12px;
+   overflow: hidden;
+   background-color: whitesmoke;
+   margin: 0 auto;
+   margin-top: 3rem;
+   padding-top: 2em;
+   padding-bottom: 2em;
+   padding-left: 0;
+   padding-right: 0; 
+   margin-bottom: 5em; 
+}
+
+img {
+    width: 10em;
+    border-radius: 1rem;
+    margin-bottom: -15px;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+#job-title {
+    margin-top: -15px;
+}
+
+#profile-name, #job-title{
+    text-align: center;
+}
+
+.bio-container {
+    width: 70%;
+}
+
+.profile-bio {
+    text-align: justify;
+    margin-top: -5px;
+}
+
+button {
+    background-color: gray;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    color: white;
+}
