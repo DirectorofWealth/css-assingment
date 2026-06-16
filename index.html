@@ -8,6 +8,7 @@
 </head>
 <body>
     <main>
+    <div class="task-one">
         <h1>RAD5 Student Form</h1>
         <p>This form is meant to get student's detail for the purpose of future aid.</p>
         <form>
@@ -16,10 +17,61 @@
                 <p>Please provide your basic information below</p>
                 <fieldset>
                     <legend>Personal Details</legend>
+
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email" >Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="age" >Age:</label>
+                        <input type="text" id="age" name="age">
+                    </div>
                 </fieldset>
 
             </section>
+
+            <section>
+                <h2>More feedback in details</h2>
+                <textarea name="feed-back" id="feed-back" class="feed-back-text">
+
+                </textarea>
+            </section>
+
+            <div class="sub-btn">
+                <button type="submit" aria-describedby="form-submition-button">Submit</button>
+            </div>
         </form>
+
+    </div>
+
+
+    <div class="task-two">
+        <section class="profile-details">
+            <div id="avatar-img">
+
+            </div>
+
+            <div>
+                <h3 id="profile-name" aria-describedby="name-of-the-user">Wealth</h3>
+                <p id="job-title" aria-describedby="job-description">Software Developer</p>
+            </div>
+
+                <p class="profile-bio" aria-describedby="profile-description"></p>
+
+            <div class="sub-btn">
+                <button type="submit" aria-describedby="form-submition-button">Submit</button>
+            </div>
+
+        </section>
+
+    </div>
 
     </main>
 </body>
