@@ -1,9 +1,12 @@
+body{
+    background-color: grey;
+}
 .task-one {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    width: 80%;
    border-radius: 12px;
    overflow: hidden;
-   background-color: whitesmoke;
+   background-color: white;
    margin: 0 auto;
    margin-top: 3rem;
    padding-top: 2em;
@@ -12,6 +15,7 @@
    padding-right: 0; 
    margin-bottom: 3em;
 }
+
 
 img {
     width: 10em;
@@ -47,5 +51,39 @@ button {
     padding: 5px 10px 5px 10px;
     border-radius: 3px;
     color: rgb(208, 201, 201);
+    border-color: black;
 }
 
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+    border-color: beige;
+}
+
+.task-two {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 90%;
+   min-width: 100hw;
+   border-radius: 12px;
+   background-color: white;
+   margin: 0 auto;
+   padding: 15px;
+
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px 3px;
+    border: 1px solid *ccc;
+    background-color: #fff;
+    outline: none;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 0.5px rgb(59, 130, 246, 0.25);
+} 
+
+fieldset {
+    padding-right: 1rem;
+}
