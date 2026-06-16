@@ -25,7 +25,7 @@
                 </div> 
 
             <div class="sub-btn">
-                <button type="button" aria-describedby="form-submition-button">Edit</button>
+                <button type="button" aria-describedby="form-submition-button">View Portfolio</button>
             </div>
 
         </section>
@@ -33,21 +33,24 @@
     </div>
 
 
+<hr>
+
 
     <div class="task-two">
         <h1>RAD5 Student Form</h1>
         <p>This form is meant to get student's detail for the purpose of future aid.</p>
         <form>
-            <section class="personal-info" aria-labelledby="personal-info-heading">
+            <section class="personal-info-section" aria-labelledby="personal-info-heading">
                 <h2 id="personal-info-heading">Students Information</h2>
-                <p>Please provide your basic information below</p>
-                <fieldset>
-                    <legend>Personal Details</legend>
 
+                <div class="personal-info">
+                <p>Please provide your personal information below</p>
+                <fieldset>
                     <div>
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name">
+                        <input type="text" id="name" name="name" focus>
                     </div>
+
                     <br>
                     <div>
                         <label for="email" >Email:</label>
@@ -60,14 +63,28 @@
                         <input type="text" id="age" name="age">
                     </div>
                 </fieldset>
+                </div>
 
             </section>
 
             <section>
-                <h2>More feedback in details</h2>
-                <textarea name="feed-back" id="feed-back" class="feed-back-text">
+                <h2>Reason for contacting</h2>
+                <div class="reason">
+                    <label for="feeling-bad">Feeling bad</label>
+                    <input type="checkbox" id="feeling-bad" name="feeling-bad">  
 
+                    <label for="difficult-lessons">Difficult lessons</label>
+                    <input type="checkbox" id="difficult-lessons" name="difficult-lessons">
+
+                    <label for="bad-presentation">Bad presentation</label>
+                    <input type="checkbox" id="bad-presentation" name="bad-presentation">
+                </div>
+
+                <div>
+                <p>Provide more information by typing your complains into the space below</p>
+                <textarea name="feed-back" id="feed-back" class="feed-back-text">
                 </textarea>
+                </div>
             </section>
 
             <div class="sub-btn">
